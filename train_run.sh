@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 python train_RawNet_SA_TS_rand.py -name rawnet_SA_TS_rand_1s_3s
