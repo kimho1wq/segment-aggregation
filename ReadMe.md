@@ -33,9 +33,9 @@ Go into test directory
 
 This reposity provides the code for reproducing below papers. 
 ```
-@article{seung2020cagging,
+@article{seung2020segment,
   title={Segment Aggregation for short utterances speaker verification using raw waveforms},
-  author={Kim, Seung-bin and Jung, Jee-weon and Shim, Hye-jin and Kim, Ju-ho and Yu, Ha-Jin},
+  author={Seung-bin Kim and Jee-weon Jung and Hye-jin Shim and Ju-ho Kim and Ha-Jin Yu},
   journal={arXiv preprint arXiv:2005.03329},
   year={2020}
 }
