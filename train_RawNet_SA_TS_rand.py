@@ -399,7 +399,7 @@ def main():
     #pretrained model
     args.model['filts'][2][0] = 128
     if bool(args.mg):
-        model_1gpu = RawNetWithCgging(args.model, device)
+        model_1gpu = RawNetWithSA(args.model, device)
         nb_params = sum([param.view(-1).size()[0] for param in model_1gpu.parameters()])
         model = nn.DataParallel(model_1gpu).to(device)
     else:
